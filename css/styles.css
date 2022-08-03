@@ -87,6 +87,16 @@ a {
   padding-bottom: 94px;
 }
 
+.section-titel {
+  margin-bottom: 50px;
+
+  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
 /**
 |============================
 | Card set
@@ -347,6 +357,16 @@ a {
   gap: var(--indent);
 }
 
+.offer-list__title {
+  margin-bottom: 10px;
+
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
 .offer-list__item {
   flex-basis: 270px;
 }
@@ -361,16 +381,6 @@ a {
   height: 120px;
   background-color: #f5f4fa;
   border-radius: 4px;
-}
-
-.offer-list__title {
-  margin-bottom: 10px;
-
-  color: #212121;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
 }
 
 .offer-list__text {
@@ -388,17 +398,7 @@ a {
   padding-top: 0;
 }
 
-.doing__title {
-  margin-bottom: 50px;
-
-  color: #212121;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-}
-
-.doing__list {
+.doing-list {
   display: flex;
   gap: var(--indent);
 }
@@ -433,16 +433,6 @@ a {
 
 .team {
   background-color: #f5f4fa;
-}
-
-.team-titel {
-  margin-bottom: 50px;
-
-  color: #212121;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
 }
 
 .team-list {
@@ -487,20 +477,6 @@ a {
 | Clients setion
 |============================
 */
-
-.clients-titel {
-  margin-bottom: 50px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
-}
 
 .clients {
   display: flex;
