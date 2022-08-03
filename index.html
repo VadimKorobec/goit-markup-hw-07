@@ -34,9 +34,11 @@
   <body>
     <!--Header section-->
     <header class="header">
-      <div class="container header-container">
-        <a class="logo" href="./index.html">Web<span class="logo-inner">Studio</span></a>
-        <nav class="nav">
+      <div class="container header__container">
+        <a class="logo header__logo" href="./index.html"
+          >Web<span class="logo__color">Studio</span></a
+        >
+        <nav class="nav header__nav">
           <ul class="nav__list">
             <li class="nav__item">
               <a
@@ -53,18 +55,18 @@
             </li>
           </ul>
         </nav>
-        <ul class="header-list">
-          <li class="header-item">
-            <a class="header-mailto" href="mailto:info@devstudio.com">
-              <svg class="icon-nav" width="16" height="12">
+        <ul class="header__list">
+          <li class="header__item">
+            <a class="header__mailto" href="mailto:info@devstudio.com">
+              <svg class="header__icon" width="16" height="12">
                 <use href="./images/icons.svg#envelope"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li class="header-item">
-            <a class="header-phone" href="tel:+380961111111">
-              <svg class="icon-nav" width="10" height="16">
+          <li class="header__item">
+            <a class="header__phone" href="tel:+380961111111">
+              <svg class="header__icon" width="10" height="16">
                 <use href="./images/icons.svg#smartphone"></use>
               </svg>
               +38 096 111 11 11
@@ -76,13 +78,13 @@
     <!--Main section-->
     <main>
       <!--Hero section-->
-      <section class="hero section section-wrap overlay">
+      <section class="hero section section__wrap overlay">
         <div class="container">
-          <h1 class="hero-title animate__animated animate__backInLeft">
+          <h1 class="hero__title animate__animated animate__backInLeft">
             Ефективні рішення для вашого бізнесу
           </h1>
           <button
-            class="button-hero animate__animated animate__backInRight"
+            class="hero__button animate__animated animate__backInRight"
             type="button"
             data-modal-open
           >
