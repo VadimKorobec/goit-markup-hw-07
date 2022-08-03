@@ -116,14 +116,21 @@ a {
   border-left: none;
 }
 
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
 }
 
+.header__logo {
+  margin-right: 93px;
+}
+
+.header__nav {
+  margin-right: auto;
+}
+
 .logo {
   display: block;
-  margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 25px;
 
@@ -133,12 +140,8 @@ a {
   color: #2196f3;
 }
 
-.logo-inner {
+.logo__color {
   color: #000000;
-}
-
-.nav {
-  margin-right: auto;
 }
 
 .nav__list {
@@ -181,6 +184,11 @@ a {
   color: #2196f3;
 }
 
+.nav__link:hover::after,
+.nav__link:focus::after {
+  opacity: 1;
+}
+
 .nav__link--current {
   color: #2196f3;
 }
@@ -199,21 +207,16 @@ a {
   opacity: 1;
 }
 
-.nav__link:hover::after,
-.nav__link:focus::after {
-  opacity: 1;
-}
-
-.header-list {
+.header__list {
   display: flex;
   gap: 50px;
 }
 
-.icon-nav {
+.header__icon {
   fill: currentColor;
 }
 
-.header-mailto {
+.header__mailto {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -230,17 +233,12 @@ a {
   transition: color var(--timeng-function);
 }
 
-.mailto-wrapper:hover,
-.mailto-wrapper:focus {
+.header__mailto:hover,
+.header__mailto:focus {
   color: #2196f3;
 }
 
-.header-mailto:hover,
-.header-mailto:focus {
-  color: #2196f3;
-}
-
-.header-phone {
+.header__phone {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -257,13 +255,8 @@ a {
   transition: color var(--timeng-function);
 }
 
-.phone-wpapper:hover,
-.phone-wpapper:focus {
-  color: #2196f3;
-}
-
-.header-phone:hover,
-.header-phone:focus {
+.header__phone:hover,
+.header__phone:focus {
   color: #2196f3;
 }
 
@@ -293,12 +286,12 @@ a {
   background-size: cover;
 }
 
-.section-wrap {
+.section__wrap {
   padding-top: 200px;
   padding-bottom: 200px;
 }
 
-.hero-title {
+.hero__title {
   margin-bottom: 30px;
   width: 696px;
   margin-left: auto;
@@ -313,7 +306,7 @@ a {
   text-transform: uppercase;
 }
 
-.button-hero {
+.hero__button {
   min-width: 200px;
   min-height: 50px;
   padding: 10px 32px;
@@ -333,8 +326,8 @@ a {
   transition: background-color var(--timeng-function);
 }
 
-.button-hero:hover,
-.button-hero:focus {
+.hero__button:hover,
+.hero__button:focus {
   background-color: #188ce8;
   border: none;
 }
