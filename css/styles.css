@@ -88,8 +88,6 @@ a {
 }
 
 .section-titel {
-  margin-bottom: 50px;
-
   color: #212121;
   font-weight: 700;
   font-size: 36px;
@@ -398,6 +396,9 @@ a {
   padding-top: 0;
 }
 
+.doing__section-titel {
+  margin-bottom: 50px;
+}
 .doing-list {
   display: flex;
   gap: var(--indent);
@@ -433,6 +434,10 @@ a {
 
 .team {
   background-color: #f5f4fa;
+}
+
+.team__section-titel {
+  margin-bottom: 50px;
 }
 
 .team-list {
@@ -483,6 +488,10 @@ a {
   align-items: center;
   justify-content: center;
   gap: 30px;
+}
+
+.clients__section-titel {
+  margin-bottom: 50px;
 }
 
 .clients-link {
