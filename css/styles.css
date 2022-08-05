@@ -1,16 +1,17 @@
-/* цвет основного текста #212121 */
-/* вторичный цвет #757575 */
-/* шапка #FFFFFF */
-/* почта и тел под rgba(255, 255, 255, 0.6)*/
-/* фдрес подвала #FFFFFF  */
-/* секция наша команда #F5F4FA */
-/* секция чем мы занисаемся #E5E5E5 */
-/* секция герой #2F303A */
-/* цвет кнопки #2196F3 */
-/* шапка hover #188CE8 */
-/* body #E5E5E5 */
-
 :root {
+  /* Fonts */
+  --main-fonts: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
+
+  /* color*/
+  --pimary-color: #757575;
+  --secondary-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --bg-dark-color: #2f303a;
+  --bg-grey-color: #f5f4fa;
+  --btn-hover-color: #188ce8;
+
   /* others */
   --indent: 30px;
   --items: 3;
@@ -20,8 +21,8 @@
 }
 
 body {
-  color: #757575;
-  font-family: Roboto, sans-serif;
+  color: var(--pimary-color);
+  font-family: var(--main-fonts);
   letter-spacing: 0.03em;
 }
 
