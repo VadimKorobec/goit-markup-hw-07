@@ -92,7 +92,7 @@ a {
   color: #212121;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.16;
+  line-height: calc(42 / 36);
   text-align: center;
 }
 
