@@ -773,10 +773,13 @@ a {
 |============================
 */
 
-.button-list {
+.button__list {
   display: flex;
-  margin-bottom: 50px;
   justify-content: center;
+}
+
+.portfolio-button {
+  margin-bottom: 50px;
 }
 
 .button-item:not(:last-child) {
