@@ -147,7 +147,7 @@ a {
   padding-top: 24px;
   padding-bottom: 25px;
 
-  font-family: var(--secondary-font) Raleway, cursive;
+  font-family: var(--secondary-font);
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color);
@@ -600,7 +600,7 @@ a {
   margin-bottom: 20px;
 
   color: var(--accent-color);
-  font-family: Raleway, cursive;
+  font-family: var(--secondary-font);
   font-size: 26px;
   line-height: 1.19;
 }
