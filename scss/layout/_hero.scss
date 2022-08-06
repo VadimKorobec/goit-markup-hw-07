@@ -1,4 +1,5 @@
 .hero {
+  @extend %section;
   text-align: center;
 }
 
