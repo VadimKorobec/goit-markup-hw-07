@@ -18,21 +18,6 @@
   margin-right: auto;
 }
 
-.logo {
-  display: block;
-  padding-top: 24px;
-  padding-bottom: 25px;
-
-  font-family: var(--secondary-font);
-  font-size: 26px;
-  line-height: 1.19;
-  color: var(--accent-color);
-}
-
-.logo__color {
-  color: var(--logo-black-color);
-}
-
 .header__list {
   display: flex;
   gap: 50px;
