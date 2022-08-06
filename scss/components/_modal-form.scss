@@ -135,18 +135,20 @@
   margin-bottom: 30px;
 }
 
-.input-checbox:checked + .register-form__icon .register-form__icon-uncheck {
-  opacity: 0;
-  transition: opacity var(--timeng-function);
+.register-form__icon-uncheck {
+  .input-checbox:checked + .register-form__icon & {
+    opacity: 0;
+    transition: opacity var(--timeng-function);
+  }
 }
 
 .register-form__icon-check {
   opacity: 0;
   transition: opacity var(--timeng-function);
-}
 
-.input-checbox:checked + .register-form__icon .register-form__icon-check {
-  opacity: 1;
+  .input-checbox:checked + .register-form__icon & {
+    opacity: 1;
+  }
 }
 
 .text-checbox {
