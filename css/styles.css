@@ -378,12 +378,15 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 30px;
 
   width: 270px;
   height: 120px;
   background-color: var(--bg-grey-color);
   border-radius: 4px;
+}
+
+.offer__wrapper {
+  margin-bottom: 30px;
 }
 
 .offer-list__text {
@@ -401,7 +404,7 @@ a {
   padding-top: 0;
 }
 
-.doing__section-titel {
+.doing-section__titel {
   margin-bottom: 50px;
 }
 
@@ -578,7 +581,7 @@ a {
   background-color: var(--bg-color-fotter);
 }
 
-.footer-section {
+.footer__section {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -588,10 +591,13 @@ a {
   align-items: baseline;
 }
 
-.footer__col {
+.footer__column {
   display: flex;
   flex-wrap: wrap;
   width: 231px;
+}
+
+.column-footer {
   margin-right: 70px;
 }
 
@@ -605,7 +611,7 @@ a {
   line-height: 1.19;
 }
 
-.footer-logo__color {
+.footer__logo-color {
   color: var(--white-color);
 }
 
@@ -773,7 +779,7 @@ a {
 |============================
 */
 
-.btn-portfolio__list {
+.portfolio-btn__list {
   display: flex;
   justify-content: center;
   gap: 8px;
@@ -783,7 +789,7 @@ a {
   margin-bottom: 50px;
 }
 
-.btn__portfolio {
+.portfolio__btn {
   padding: 6px 22px;
 
   color: var(--secondary-color);
@@ -800,15 +806,15 @@ a {
     box-shadow var(--timeng-function);
 }
 
-.btn__portfolio--current {
+.portfolio__btn--current {
   background-color: var(--accent-color);
   color: var(--white-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.btn__portfolio:hover,
-.btn__portfolio:focus {
+.portfolio__btn:hover,
+.portfolio__btn:focus {
   background-color: var(--accent-color);
   color: var(--white-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
