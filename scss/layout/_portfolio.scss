@@ -19,9 +19,7 @@
   border: none;
   font-family: inherit;
   cursor: pointer;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
+  @include fonts(16px, 26px, 500);
   border-radius: 4px;
   background-color: var(--bg-grey-color);
   transition: color var(--timeng-function), background-color var(--timeng-function),
@@ -75,8 +73,7 @@
   left: 0;
   padding: 63px 24px;
 
-  font-size: 18px;
-  line-height: calc(28 / 18);
+  @include fonts(18px, 28px, 400);
   color: var(--white-color);
   background-color: rgba(33, 150, 243, 0.9);
   opacity: 0;
@@ -100,13 +97,10 @@
   margin-bottom: 4px;
 
   color: var(--secondary-color);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
+  @include fonts(18px, 36px, 700);
   letter-spacing: 0.06em;
 }
 
 .portfolio-wrapper__text {
-  font-size: 16px;
-  line-height: 1.87;
+  @include fonts(16px, 30px, 400);
 }
