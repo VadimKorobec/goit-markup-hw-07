@@ -148,6 +148,20 @@ a {
   transition: fill var(--timeng-function);
 }
 
+.logo {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  font-family: var(--secondary-font);
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+}
+
+.logo__color {
+  color: var(--logo-black-color);
+}
+
 .header {
   border: 1px solid var(--border-color);
   border-top: none;
@@ -170,20 +184,6 @@ a {
 
 .header__nav {
   margin-right: auto;
-}
-
-.logo {
-  display: block;
-  padding-top: 24px;
-  padding-bottom: 25px;
-  font-family: var(--secondary-font);
-  font-size: 26px;
-  line-height: 1.19;
-  color: var(--accent-color);
-}
-
-.logo__color {
-  color: var(--logo-black-color);
 }
 
 .header__list {
@@ -495,4 +495,51 @@ a {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+}
+
+.clients {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+}
+
+.clients__section-titel {
+  margin-bottom: 50px;
+}
+
+.clients__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--icon-color);
+  border-radius: 4px;
+  -webkit-transition: border-color var(--timeng-function), fill var(--timeng-function);
+  transition: border-color var(--timeng-function), fill var(--timeng-function);
+}
+.clients__link:hover, .clients__link:focus {
+  border-color: var(--accent-color);
+}
+.clients__link:hover .clients__icon, .clients__link:focus .clients__icon {
+  fill: var(--accent-color);
+}
+
+.clients__icon {
+  fill: var(--icon-color);
+  -webkit-transition: fill var(--timeng-function);
+  transition: fill var(--timeng-function);
 }/*# sourceMappingURL=main.css.map */
