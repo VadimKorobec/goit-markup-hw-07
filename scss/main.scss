@@ -1,15 +1,15 @@
 // utils styles
 @import './utils/variables';
 @import './utils/visually-hidden';
+@import './utils/placeholders';
 
 // base styles
-@import './base/bace';
+@import './base/base';
 @import './base/reset';
 
 // components styles
 @import './components/buttons';
 @import './components/card-set';
-@import './components/section';
 @import './components/container';
 @import './components/titels';
 @import './components/team-socials-icon';
