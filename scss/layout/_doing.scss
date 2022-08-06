@@ -27,10 +27,7 @@
   width: 370px;
   height: 70px;
   padding: 27px;
-
-  font-weight: 700;
-  font-size: 14px;
-  line-height: calc(16 / 14);
+  @include fonts(14px, 16px, 700);
   text-align: center;
   text-transform: uppercase;
   color: var(--white-color);
