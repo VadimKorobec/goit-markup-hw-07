@@ -36,6 +36,11 @@
   margin: -1px;
 }
 
+.portfolio, .clients, .team, .doing, .offer, .hero {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 body {
   color: var(--pimary-color);
   font-family: var(--main-fonts);
@@ -84,11 +89,6 @@ a {
 .card-set-item {
   -ms-flex-preferred-size: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
       flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
-}
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .container {
@@ -583,7 +583,6 @@ a {
   -webkit-transition: opacity var(--timeng-function);
   transition: opacity var(--timeng-function);
 }
-
 .input-checbox:checked + .register-form__icon .register-form__icon-check {
   opacity: 1;
 }
@@ -965,7 +964,7 @@ a {
   text-align: center;
 }
 
-.clients {
+.clients__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
