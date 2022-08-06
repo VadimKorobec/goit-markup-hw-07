@@ -14,9 +14,7 @@
 .offer-list__title {
   margin-bottom: 10px;
 
-  font-size: 14px;
-  line-height: calc(16 / 14);
-  letter-spacing: 0.03em;
+  @include fonts(14px, 16px, 700);
   text-transform: uppercase;
   color: var(--secondary-color);
 }
@@ -41,6 +39,5 @@
 }
 
 .offer-list__text {
-  font-size: 14px;
-  line-height: 1.71;
+  @include fonts(14px, 24px, 400);
 }
