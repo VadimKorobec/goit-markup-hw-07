@@ -32,7 +32,7 @@
   padding: 0;
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
-  clip-path: inset(50%);
+          clip-path: inset(50%);
   margin: -1px;
 }
 
@@ -77,13 +77,13 @@ a {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   gap: var(--indent);
 }
 
 .card-set-item {
   -ms-flex-preferred-size: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
-  flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+      flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
 }
 
 .section {
@@ -118,8 +118,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .header__logo {
@@ -160,8 +160,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 10px;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -173,8 +173,7 @@ a {
   -webkit-transition: color var(--timeng-function);
   transition: color var(--timeng-function);
 }
-.header__mailto:hover,
-.header__mailto:focus {
+.header__mailto:hover, .header__mailto:focus {
   color: #2196f3;
 }
 
@@ -183,8 +182,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 10px;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -196,8 +195,7 @@ a {
   -webkit-transition: color var(--timeng-function);
   transition: color var(--timeng-function);
 }
-.header__phone:hover,
-.header__phone:focus {
+.header__phone:hover, .header__phone:focus {
   color: var(--accent-color);
 }
 
@@ -221,13 +219,12 @@ a {
   -webkit-transition: color var(--timeng-function);
   transition: color var(--timeng-function);
 }
-.nav__link:hover,
-.nav__link:focus {
+.nav__link:hover, .nav__link:focus {
   color: var(--accent-color);
 }
 
 .nav__link::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   bottom: 0;
@@ -251,7 +248,7 @@ a {
 }
 
 .nav__link--current::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   bottom: 0;
@@ -261,4 +258,66 @@ a {
   background-color: var(--accent-color);
   border-radius: 2px;
   opacity: 1;
-} /*# sourceMappingURL=main.css.map */
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero__wrap {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.hero__overlay {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--background-color-hero);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero/Image01.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/Image01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero__title {
+  margin-bottom: 30px;
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero__button {
+  min-width: 200px;
+  min-height: 50px;
+  padding: 10px 32px;
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  -webkit-transition: background-color var(--timeng-function);
+  transition: background-color var(--timeng-function);
+}
+.hero__button:hover, .hero__button:focus {
+  background-color: var(--btn-hover-color);
+  border: none;
+}/*# sourceMappingURL=main.css.map */
